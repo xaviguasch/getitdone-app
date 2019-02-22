@@ -38,7 +38,7 @@ app.post('/', function (req, res) {
     console.log(req.body.list);
 
 
-    if (req.body.list === 'Work') {
+    if (req.body.list === 'Work List') {
         workItems.push(item)
         res.redirect('/work')
     } else {
